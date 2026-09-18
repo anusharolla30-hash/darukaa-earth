@@ -75,7 +75,7 @@ function App() {
     const loadSiteAnalytics = async () => {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:8000/sites/${selectedSite.id}/analytics`,
+          `${import.meta.env.VITE_API_URL}/sites/${selectedSite.id}/analytics`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -101,7 +101,7 @@ function App() {
     setLoginError("");
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/auth/login", {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/auth/login`, {
         email,
         password,
       });
@@ -131,7 +131,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/projects/",
+        `${import.meta.env.VITE_API_URL}/projects/`,
         {
           name: projectName,
           description: projectDescription,
@@ -178,7 +178,7 @@ function App() {
 
     const loadProjects = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:8000/projects/", {
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/projects/`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -235,7 +235,7 @@ function App() {
     map.current.on("load", async () => {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:8000/projects/${selectedProject.project_id}/sites`,
+          `${import.meta.env.VITE_API_URL}/projects/${selectedProject.project_id}/sites`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -297,7 +297,7 @@ function App() {
           const firstSite = projectSites[0];
 
           const analyticsResponse = await axios.get(
-            `http://127.0.0.1:8000/sites/${firstSite.site_id}/analytics`,
+            `${import.meta.env.VITE_API_URL}/sites/${firstSite.site_id}/analytics`,
             {
               headers: {
                 Authorization: `Bearer ${token}`,
@@ -1360,7 +1360,7 @@ function App() {
 
                     try {
                       const response = await axios.post(
-                        `http://127.0.0.1:8000/sites/${selectedSite.id}/analytics`,
+                        `${import.meta.env.VITE_API_URL}/sites/${selectedSite.id}/analytics`,
                         {
                           year: Number(analyticsYear),
                           carbon_value: Number(carbonValue),
@@ -1383,7 +1383,7 @@ function App() {
                       setShowAnalyticsForm(false);
 
                       const analyticsResponse = await axios.get(
-                        `http://127.0.0.1:8000/sites/${selectedSite.id}/analytics`,
+                        `${import.meta.env.VITE_API_URL}/sites/${selectedSite.id}/analytics`,
                         {
                           headers: {
                             Authorization: `Bearer ${token}`,
@@ -1697,7 +1697,7 @@ function App() {
 
               try {
                 const response = await axios.post(
-                  `http://127.0.0.1:8000/projects/${selectedProject.project_id}/sites`,
+                  `${import.meta.env.VITE_API_URL}/projects/${selectedProject.project_id}/sites`,
                   {
                     name: siteName,
                     description: siteDescription,

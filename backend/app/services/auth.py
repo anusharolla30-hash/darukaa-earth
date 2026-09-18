@@ -1,16 +1,19 @@
+import os
 from datetime import datetime, timedelta, timezone
 
 import jwt
+from dotenv import load_dotenv
 from pwdlib import PasswordHash
 
+load_dotenv()
 
-# Secret key used to sign JWT tokens
-SECRET_KEY = "darukaa-earth-secret-key-change-later"
+SECRET_KEY = os.getenv("SECRET_KEY")
+
+if not SECRET_KEY:
+    raise RuntimeError("SECRET_KEY environment variable is not set")
 
 ALGORITHM = "HS256"
-
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
-
 
 password_hash = PasswordHash.recommended()
 

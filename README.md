@@ -133,22 +133,22 @@ Validation includes:
 ## 📸 Screenshots
 
 ### 🔐 Login
-![Login Page](./frontend/public/screenshots/login.png)
+![Login Page](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/login.png)
 
 ### 📊 Dashboard
-![Dashboard](./frontend/public/screenshots/dashboard.png)
+![Dashboard](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/dashboard.png)
 
 ### 🗺️ Map & Sites
-![Map and Sites](./frontend/public/screenshots/map-site.png)
+![Map and Sites](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/map-site.png)
 
 ### 📈 Analytics
-![Analytics](./frontend/public/screenshots/analytics.png)
+![Analytics](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/analytics.png)
 
 ### 📊 Graph & Chart
-![Graph and Chart](./frontend/public/screenshots/graph-chart.png)
+![Graph and Chart](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/graphchart.png)
 
 ### ➕ Add Analytics
-![Add Analytics](./frontend/public/screenshots/add-analytics.png)
+![Add Analytics](https://github.com/anusharolla30-hash/darukaa-earth/raw/main/frontend/public/screenshots/add-analytics.png)
 ---
 
 ## 📂 Project Structure

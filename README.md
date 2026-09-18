@@ -133,23 +133,22 @@ Validation includes:
 ## 📸 Screenshots
 
 ### 🔐 Login
-![Login Page](./Darukaa%20Earth%20Screenshots/login.png)
+![Login Page](./frontend/public/screenshots/login.png)
 
 ### 📊 Dashboard
-![Dashboard](./Darukaa%20Earth%20Screenshots/dashboard.png)
+![Dashboard](./frontend/public/screenshots/dashboard.png)
 
 ### 🗺️ Map & Sites
-![Map and Sites](./Darukaa%20Earth%20Screenshots/map-site.png)
+![Map and Sites](./frontend/public/screenshots/map-site.png)
 
 ### 📈 Analytics
-![Analytics](./Darukaa%20Earth%20Screenshots/analytics.png)
+![Analytics](./frontend/public/screenshots/analytics.png)
 
 ### 📊 Graph & Chart
-![Graph and Chart](./Darukaa%20Earth%20Screenshots/graph-chart.png)
+![Graph and Chart](./frontend/public/screenshots/graph-chart.png)
 
 ### ➕ Add Analytics
-![Add Analytics](./Darukaa%20Earth%20Screenshots/add-analytics.png)
-
+![Add Analytics](./frontend/public/screenshots/add-analytics.png)
 ---
 
 ## 📂 Project Structure

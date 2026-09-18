@@ -749,7 +749,7 @@ function App() {
         style={{
           position: "absolute",
           top: "20px",
-          right: "20px",
+          right: "80px",
           zIndex: 10,
           padding: "10px 16px",
           border: "1px solid #dce5df",
